@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SellHub E-commerce Platform
 
-## Getting Started
+## Project Overview
+A modern e-commerce platform built with Next.js 14, focusing on performance, scalability, and user experience. The platform allows users to browse products, manage their cart, and complete purchases.
 
-First, run the development server:
+## Tech Stack
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Database**: (TBD based on requirements)
+- **Authentication**: (TBD based on requirements)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features to Implement
+1. **Product Catalog**
+   - Product listing with filters and search
+   - Product details page
+   - Category navigation
+   - Product image gallery
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Shopping Cart**
+   - Add/remove items
+   - Update quantities
+   - Cart persistence
+   - Price calculations
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **User Management**
+   - User registration
+   - Authentication
+   - Profile management
+   - Order history
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Checkout Process**
+   - Address management
+   - Payment integration
+   - Order confirmation
+   - Email notifications
 
-## Learn More
+## Development Guidelines
+1. **Architecture**
+   - Use Next.js App Router for routing
+   - Implement server components where possible
+   - Add "use client" directive only when necessary
+   - Follow the repository pattern for data access
 
-To learn more about Next.js, take a look at the following resources:
+2. **UI/UX**
+   - Responsive design for all screen sizes
+   - Accessible components using shadcn/ui
+   - Consistent use of Lucide icons
+   - Loading states and error handling
+   - Form validation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Performance**
+   - Image optimization
+   - Lazy loading
+   - Server-side rendering
+   - API route optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Code Quality**
+   - TypeScript for type safety
+   - ESLint for code consistency
+   - Component reusability
+   - Clean code principles
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Next Steps
+1. Set up project structure and base configuration
+2. Implement basic UI components and layouts
+3. Create product catalog functionality
+4. Add shopping cart features
+5. Implement user authentication
+6. Build checkout process
+7. Add admin dashboard (if required)
+8. Testing and optimization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Best Practices
+- Write clean, maintainable code
+- Use TypeScript for better type safety
+- Follow Next.js best practices
+- Implement proper error handling
+- Write tests for critical functionality
+- Optimize for performance
+- Follow accessibility guidelines
