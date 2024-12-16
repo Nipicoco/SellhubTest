@@ -2,8 +2,8 @@
 
 import { ShoppingCart, Menu, Search } from "lucide-react"
 import Link from "next/link"
-import { Button } from "./ui/button"
-import { ThemeToggle } from "./theme-toggle"
+import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -11,7 +11,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "./ui/navigation-menu"
+} from "@/components/ui/navigation-menu"
 
 export function Navbar() {
   return (
